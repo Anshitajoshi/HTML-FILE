@@ -1,0 +1,34 @@
+h1{
+    color: brown;
+}
+#INDORE{
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
+    color: coral;
+}
+.GOA{
+    color: coral;
+    text-align: center;
+}
+.QUOTE{
+    border: left width 4px; 
+    border-left-color: red;
+    border-style: solid;
+    border-top-width: 2px;
+    border-RIGHT-width: 2px;
+    border-BOTTOM-width: 2px;
+    border-radius: 5px;
+
+}
+#FALSE{
+    border: 5px solid red;
+}
+*{
+    /* UNIVERAL SELECTOR*/
+}
+body{
+    background-color: URL(sign.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

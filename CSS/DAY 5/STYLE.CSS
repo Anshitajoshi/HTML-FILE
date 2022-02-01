@@ -1,0 +1,43 @@
+/* A:link{
+     color:red;
+    }
+a:visited{
+    color: blueviolet;
+
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: cadetblue;
+}*/
+a:link,a:visited{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a:hover,a:active{
+    background-color: brown;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid green;
+}
+tr:hover{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: hotpink;
+}
+div{
+    overflow-x: auto;
+}
